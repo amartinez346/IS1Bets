@@ -46,7 +46,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "AdminMainPageGUI_8java.html",
-"classdomain_1_1User.html#a9a0a7affd1ab9ba7d882317d5da47888",
+"classdomain_1_1User.html#a9f89fcc3016d3a74f4660f1e3c133882",
 "functions_p.html"
 ];
 

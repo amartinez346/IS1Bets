@@ -16,7 +16,7 @@ var searchData=
   ['textfieldusuario',['textFieldUsuario',['../classgui_1_1CreateUserGUI.html#a4e740cefebabdcde4027964a4bd6cba7',1,'gui.CreateUserGUI.textFieldUsuario()'],['../classgui_1_1MainGUI.html#a55b77c52b8af8b275ac73bb0965ed2f1',1,'gui.MainGUI.textFieldUsuario()']]],
   ['theinstance',['theInstance',['../classconfiguration_1_1ConfigXML.html#a7993e8ab35ee8854e832e85bafe85964',1,'configuration::ConfigXML']]],
   ['tipo',['tipo',['../classdomain_1_1User.html#a3e3d2bcaf19448f31142d301db0493be',1,'domain::User']]],
-  ['tipousuario',['tipoUsuario',['../classdataAccess_1_1DataAccess.html#a5fb8a6a6eb6464d860c698d55dfdc722',1,'dataAccess::DataAccess']]],
+  ['tipousuario',['tipoUsuario',['../classdataAccess_1_1DataAccess.html#acc6cd522fd82ae521a9cb25ff7ad8c88',1,'dataAccess::DataAccess']]],
   ['tostring',['toString',['../classdomain_1_1Event.html#a0d1615cfe917523681dde8d72190c327',1,'domain.Event.toString()'],['../classdomain_1_1Question.html#a3a94b2446ffde13851ce20b42199454e',1,'domain.Question.toString()']]],
   ['trim',['trim',['../classgui_1_1ApuestaGUI.html#adad0c9f21566e2386874ff84e3d84ddf',1,'gui.ApuestaGUI.trim()'],['../classgui_1_1CreateEventGUI.html#a2a70eddae15216e91c11a7c909e3217a',1,'gui.CreateEventGUI.trim()'],['../classgui_1_1CreateQuestionGUI.html#a9eb6017713f37b1600dbe23a0fdb3a95',1,'gui.CreateQuestionGUI.trim()'],['../classgui_1_1FindQuestionsGUI.html#a6156ed3f274fcc9d14722f62a96ac73e',1,'gui.FindQuestionsGUI.trim()']]]
 ];

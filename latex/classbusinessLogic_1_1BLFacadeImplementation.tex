@@ -15,13 +15,13 @@ Diagrama de herencias de business\+Logic.\+B\+L\+Facade\+Implementation\begin{fi
 \item 
 \mbox{\hyperlink{classdomain_1_1Question}{Question}} \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a05d93749b9cdaabcda23a8e6299fdf7d}{create\+Question}} (\mbox{\hyperlink{classdomain_1_1Event}{Event}} event, String question, \mbox{\hyperlink{classdomain_1_1Result}{Result}} result, float bet\+Minimum, float cuota)  throws Event\+Finished, Question\+Already\+Exist
 \item 
-void \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a8151bf6a93e7f5c1a077b25c0a02830e}{crear\+Usuario}} (String D\+NI, String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contrase�a)
+void \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a2127be166dc2d3c992f3435006ab0575}{crear\+Usuario}} (String D\+NI, String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contraseña)
 \item 
-boolean \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_abc11dd684812d75b937e9a74dce274d6}{Login}} (String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contrase�a)
+boolean \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_afa698129a017866dfc8ae32601fd00fe}{Login}} (String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contraseña)
 \item 
 boolean \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ac83572a35820cc3eac9d4a51add5a752}{Esta}} (String D\+NI)
 \item 
-boolean \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a141c203a599dffb808ec859e62443c3a}{Es\+Admin}} (String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contrase�a)
+boolean \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a1fd11ce02084c04c70d667efb94167d0}{Es\+Admin}} (String \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, String contraseña)
 \item 
 void \mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_a504f1b6069b3d166881c8047836a1d76}{create\+Event}} (String description, Date event\+Date)
 \item 
@@ -204,15 +204,15 @@ Definición en la línea 310 del archivo B\+L\+Facade\+Implementation.\+java.
 
 Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+corregir\+Resultado().
 
-\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_a8151bf6a93e7f5c1a077b25c0a02830e}\label{classbusinessLogic_1_1BLFacadeImplementation_a8151bf6a93e7f5c1a077b25c0a02830e}} 
+\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_a2127be166dc2d3c992f3435006ab0575}\label{classbusinessLogic_1_1BLFacadeImplementation_a2127be166dc2d3c992f3435006ab0575}} 
 \index{businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}!crearUsuario@{crearUsuario}}
 \index{crearUsuario@{crearUsuario}!businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}}
 \subsubsection{\texorpdfstring{crearUsuario()}{crearUsuario()}}
-{\footnotesize\ttfamily void business\+Logic.\+B\+L\+Facade\+Implementation.\+crear\+Usuario (\begin{DoxyParamCaption}\item[{String}]{D\+NI,  }\item[{String}]{usuario,  }\item[{String}]{contrase�a }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void business\+Logic.\+B\+L\+Facade\+Implementation.\+crear\+Usuario (\begin{DoxyParamCaption}\item[{String}]{D\+NI,  }\item[{String}]{usuario,  }\item[{String}]{contraseña }\end{DoxyParamCaption})}
 
 
 
-Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_ac447e8f0ecd88d73e625deda5ac801f9}{business\+Logic.\+B\+L\+Facade}}.
+Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_ad5ddf0ebb395d8d4d8574ccb9cc4047e}{business\+Logic.\+B\+L\+Facade}}.
 
 
 
@@ -227,11 +227,7 @@ Definición en la línea 92 del archivo B\+L\+Facade\+Implementation.\+java.
 \DoxyCodeLine{96         \textcolor{keywordflow}{if}(dBManager.estaUsuario(DNI)) \{}
 \DoxyCodeLine{97             System.out.println(\textcolor{stringliteral}{"El usuario existe"});}
 \DoxyCodeLine{98         \}\textcolor{keywordflow}{else} \{}
-\DoxyCodeLine{99             dBManager.crearUsuario(DNI,\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}},contrase�a     
-            dBManager.close();
-        \}
-   \};
-);      }
+\DoxyCodeLine{99             dBManager.crearUsuario(DNI,\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}},contraseña);      }
 \DoxyCodeLine{100             dBManager.close();}
 \DoxyCodeLine{101         \}}
 \DoxyCodeLine{102    \};}
@@ -400,15 +396,15 @@ Definición en la línea 72 del archivo B\+L\+Facade\+Implementation.\+java.
 
 Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+create\+Question().
 
-\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_a141c203a599dffb808ec859e62443c3a}\label{classbusinessLogic_1_1BLFacadeImplementation_a141c203a599dffb808ec859e62443c3a}} 
+\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_a1fd11ce02084c04c70d667efb94167d0}\label{classbusinessLogic_1_1BLFacadeImplementation_a1fd11ce02084c04c70d667efb94167d0}} 
 \index{businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}!EsAdmin@{EsAdmin}}
 \index{EsAdmin@{EsAdmin}!businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}}
 \subsubsection{\texorpdfstring{EsAdmin()}{EsAdmin()}}
-{\footnotesize\ttfamily boolean business\+Logic.\+B\+L\+Facade\+Implementation.\+Es\+Admin (\begin{DoxyParamCaption}\item[{String}]{usuario,  }\item[{String}]{contrase�a }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily boolean business\+Logic.\+B\+L\+Facade\+Implementation.\+Es\+Admin (\begin{DoxyParamCaption}\item[{String}]{usuario,  }\item[{String}]{contraseña }\end{DoxyParamCaption})}
 
 
 
-Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_a07b2c54cb3b91be5683b0311055c2307}{business\+Logic.\+B\+L\+Facade}}.
+Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_abd1601649b5bd94bd61c5c2a4893c734}{business\+Logic.\+B\+L\+Facade}}.
 
 
 
@@ -420,16 +416,7 @@ Definición en la línea 140 del archivo B\+L\+Facade\+Implementation.\+java.
 \DoxyCodeLine{141 }
 \DoxyCodeLine{142         DataAccess dBManager=\textcolor{keyword}{new} DataAccess();}
 \DoxyCodeLine{143 }
-\DoxyCodeLine{144         \textcolor{keywordflow}{if}(dBManager.tipoUsuario(\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, contrase�a \{
-            dBManager.close();
-            return true;
-        \}else\{
-            dBManager.close();
-            return false;
-        \}
-        
-   \};
-).equals(\textcolor{stringliteral}{"admin"})) \{}
+\DoxyCodeLine{144         \textcolor{keywordflow}{if}(dBManager.tipoUsuario(\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}}, contraseña).equals(\textcolor{stringliteral}{"admin"})) \{}
 \DoxyCodeLine{145             dBManager.close();}
 \DoxyCodeLine{146             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
 \DoxyCodeLine{147         \}\textcolor{keywordflow}{else}\{}
@@ -687,15 +674,15 @@ Definición en la línea 293 del archivo B\+L\+Facade\+Implementation.\+java.
 
 Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+initialize\+D\+B().
 
-\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_abc11dd684812d75b937e9a74dce274d6}\label{classbusinessLogic_1_1BLFacadeImplementation_abc11dd684812d75b937e9a74dce274d6}} 
+\mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_afa698129a017866dfc8ae32601fd00fe}\label{classbusinessLogic_1_1BLFacadeImplementation_afa698129a017866dfc8ae32601fd00fe}} 
 \index{businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}!Login@{Login}}
 \index{Login@{Login}!businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}}
 \subsubsection{\texorpdfstring{Login()}{Login()}}
-{\footnotesize\ttfamily boolean business\+Logic.\+B\+L\+Facade\+Implementation.\+Login (\begin{DoxyParamCaption}\item[{String}]{usuario,  }\item[{String}]{contrase�a }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily boolean business\+Logic.\+B\+L\+Facade\+Implementation.\+Login (\begin{DoxyParamCaption}\item[{String}]{usuario,  }\item[{String}]{contraseña }\end{DoxyParamCaption})}
 
 
 
-Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_a51f084d973c58559ceb611ef92aed3f3}{business\+Logic.\+B\+L\+Facade}}.
+Implementa \mbox{\hyperlink{interfacebusinessLogic_1_1BLFacade_adef077ad68e73cc18466c7f8805f1516}{business\+Logic.\+B\+L\+Facade}}.
 
 
 
@@ -707,16 +694,7 @@ Definición en la línea 106 del archivo B\+L\+Facade\+Implementation.\+java.
 \DoxyCodeLine{107 }
 \DoxyCodeLine{108         DataAccess dBManager=\textcolor{keyword}{new} DataAccess();}
 \DoxyCodeLine{109 }
-\DoxyCodeLine{110         \textcolor{keywordflow}{if}(dBManager.contrase�aCorrecta(\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}},contrase�a \{
-            dBManager.close();
-            return true;
-        \}else\{
-            dBManager.close();
-            return false;
-        \}
-        
-   \};
-)) \{}
+\DoxyCodeLine{110         \textcolor{keywordflow}{if}(dBManager.contraseñaCorrecta(\mbox{\hyperlink{classbusinessLogic_1_1BLFacadeImplementation_ab32bba3f140f33d176c85bb4ad8527b4}{usuario}},contraseña)) \{}
 \DoxyCodeLine{111             dBManager.close();}
 \DoxyCodeLine{112             \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
 \DoxyCodeLine{113         \}\textcolor{keywordflow}{else}\{}
@@ -729,7 +707,7 @@ Definición en la línea 106 del archivo B\+L\+Facade\+Implementation.\+java.
 \end{DoxyCode}
 
 
-Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+contrase�a\+Correcta().
+Hace referencia a data\+Access.\+Data\+Access.\+close() y data\+Access.\+Data\+Access.\+contraseña\+Correcta().
 
 \mbox{\Hypertarget{classbusinessLogic_1_1BLFacadeImplementation_a2ba616628033f05a5f70a0afddb1c970}\label{classbusinessLogic_1_1BLFacadeImplementation_a2ba616628033f05a5f70a0afddb1c970}} 
 \index{businessLogic.BLFacadeImplementation@{businessLogic.BLFacadeImplementation}!saldo@{saldo}}

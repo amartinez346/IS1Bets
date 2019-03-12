@@ -1,7 +1,7 @@
 var searchData=
 [
   ['equals',['equals',['../classdomain_1_1Event.html#aeb56c0c6301d176e3f861ae04f50fab7',1,'domain::Event']]],
-  ['esadmin',['EsAdmin',['../interfacebusinessLogic_1_1BLFacade.html#a07b2c54cb3b91be5683b0311055c2307',1,'businessLogic.BLFacade.EsAdmin()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#a141c203a599dffb808ec859e62443c3a',1,'businessLogic.BLFacadeImplementation.EsAdmin()']]],
+  ['esadmin',['EsAdmin',['../interfacebusinessLogic_1_1BLFacade.html#abd1601649b5bd94bd61c5c2a4893c734',1,'businessLogic.BLFacade.EsAdmin()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#a1fd11ce02084c04c70d667efb94167d0',1,'businessLogic.BLFacadeImplementation.EsAdmin()']]],
   ['esta',['Esta',['../interfacebusinessLogic_1_1BLFacade.html#a6d1b585be500b872823e516cc30929ee',1,'businessLogic.BLFacade.Esta()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#ac83572a35820cc3eac9d4a51add5a752',1,'businessLogic.BLFacadeImplementation.Esta()']]],
   ['estaresultado',['estaResultado',['../interfacebusinessLogic_1_1BLFacade.html#a3115bea528677d182ed5725eacbdf13c',1,'businessLogic.BLFacade.estaResultado()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#ac0445d578f21530433001bfb7582a175',1,'businessLogic.BLFacadeImplementation.estaResultado()'],['../classdataAccess_1_1DataAccess.html#a7a9bb352594830bebe5abbf44e0b0da2',1,'dataAccess.DataAccess.estaResultado()']]],
   ['estausuario',['estaUsuario',['../classdataAccess_1_1DataAccess.html#a68ae3ab95c34b9d717958d3cf30e422d',1,'dataAccess::DataAccess']]],

@@ -7,5 +7,5 @@ var searchData=
   ['lblresultado',['lblResultado',['../classgui_1_1CreateQuestionGUI.html#aa8b6309e7e7f51e35da8339e0170ca96',1,'gui::CreateQuestionGUI']]],
   ['lblsaldoaaadir',['lblSaldoAAadir',['../classgui_1_1UserMainPageGUI.html#aa42122f2cc36310cfb199a83882e42a3',1,'gui::UserMainPageGUI']]],
   ['locale',['locale',['../classconfiguration_1_1ConfigXML.html#a34c81c18f387adacbf595cee3c0229b0',1,'configuration::ConfigXML']]],
-  ['login',['Login',['../interfacebusinessLogic_1_1BLFacade.html#a51f084d973c58559ceb611ef92aed3f3',1,'businessLogic.BLFacade.Login()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#abc11dd684812d75b937e9a74dce274d6',1,'businessLogic.BLFacadeImplementation.Login()']]]
+  ['login',['Login',['../interfacebusinessLogic_1_1BLFacade.html#adef077ad68e73cc18466c7f8805f1516',1,'businessLogic.BLFacade.Login()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#afa698129a017866dfc8ae32601fd00fe',1,'businessLogic.BLFacadeImplementation.Login()']]]
 ];

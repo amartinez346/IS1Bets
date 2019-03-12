@@ -166,43 +166,7 @@ Definición en la línea 89 del archivo Main\+G\+U\+I.\+java.
 \DoxyCodeLine{112                     String name = \mbox{\hyperlink{classgui_1_1MainGUI_a55b77c52b8af8b275ac73bb0965ed2f1}{textFieldUsuario}}.getText();}
 \DoxyCodeLine{113                     String contra = String.valueOf(\mbox{\hyperlink{classgui_1_1MainGUI_a61d033008de636b7bec5658cdebe8fd3}{passwordField}}.getPassword());}
 \DoxyCodeLine{114                     \textcolor{keywordflow}{if} (name.length()==0 || contra.length()==0) \{}
-\DoxyCodeLine{115                         System.out.println(\textcolor{stringliteral}{"Falta usuario o contrase�a
-                    \}else \{                     
-                        if (facade.Login(name, contra)) \{
-                            if (facade.EsAdmin(name, contra)) \{
-                                AdminMainPageGUI a = new AdminMainPageGUI();
-                                a.setVisible(true);
-                            \}else \{
-                                UserMainPageGUI a = new UserMainPageGUI(name);
-                                a.setVisible(true);
-                            \}
-                        \}else \{
-                            System.out.println("usuario o contrase�a mal");
-                        \}
-                    \}
-                \}
-            \});
-            btnIniciarSesin.setBounds(55, 183, 166, 27);
-            jContentPane.add(btnIniciarSesin);
-            
-            JButton btnRegistrarse = new JButton(ResourceBundle.getBundle("Etiquetas").getString("btnRegistrarse")); //\$NON-NLS-1\$ //\$NON-NLS-2\$
-            btnRegistrarse.addActionListener(new ActionListener() \{
-                public void actionPerformed(ActionEvent e) \{
-                    CreateUserGUI a = new CreateUserGUI();
-                    a.setVisible(true);
-                \}
-            \});
-            btnRegistrarse.setBounds(254, 183, 166, 27);
-            jContentPane.add(btnRegistrarse);
-            
-            passwordField = new JPasswordField();
-            //passwordField.setText(ResourceBundle.getBundle("Etiquetas").getString("MainGUI.passwordField.text")); //\$NON-NLS-1\$ //\$NON-NLS-2\$
-            passwordField.setBounds(154, 125, 202, 27);
-            jContentPane.add(passwordField);
-        \}
-        return jContentPane;
-    \}
-"});}
+\DoxyCodeLine{115                         System.out.println(\textcolor{stringliteral}{"Falta usuario o contraseña"});}
 \DoxyCodeLine{116                     \}\textcolor{keywordflow}{else} \{                     }
 \DoxyCodeLine{117                         \textcolor{keywordflow}{if} (facade.Login(name, contra)) \{}
 \DoxyCodeLine{118                             \textcolor{keywordflow}{if} (facade.EsAdmin(name, contra)) \{}
@@ -213,7 +177,7 @@ Definición en la línea 89 del archivo Main\+G\+U\+I.\+java.
 \DoxyCodeLine{123                                 a.setVisible(\textcolor{keyword}{true});}
 \DoxyCodeLine{124                             \}}
 \DoxyCodeLine{125                         \}\textcolor{keywordflow}{else} \{}
-\DoxyCodeLine{126                             System.out.println(\textcolor{stringliteral}{"usuario o contrase�a mal"});}
+\DoxyCodeLine{126                             System.out.println(\textcolor{stringliteral}{"usuario o contraseña mal"});}
 \DoxyCodeLine{127                         \}}
 \DoxyCodeLine{128                     \}}
 \DoxyCodeLine{129                 \}}

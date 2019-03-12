@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['login',['Login',['../interfacebusinessLogic_1_1BLFacade.html#a51f084d973c58559ceb611ef92aed3f3',1,'businessLogic.BLFacade.Login()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#abc11dd684812d75b937e9a74dce274d6',1,'businessLogic.BLFacadeImplementation.Login()']]]
+  ['login',['Login',['../interfacebusinessLogic_1_1BLFacade.html#adef077ad68e73cc18466c7f8805f1516',1,'businessLogic.BLFacade.Login()'],['../classbusinessLogic_1_1BLFacadeImplementation.html#afa698129a017866dfc8ae32601fd00fe',1,'businessLogic.BLFacadeImplementation.Login()']]]
 ];

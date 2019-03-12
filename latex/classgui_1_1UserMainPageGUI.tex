@@ -98,86 +98,7 @@ Definición en la línea 28 del archivo User\+Main\+Page\+G\+U\+I.\+java.
 \DoxyCodeLine{67             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent e) \{}
 \DoxyCodeLine{68                 BLFacade facade=MainGUI.getBusinessLogic();}
 \DoxyCodeLine{69                 \textcolor{comment}{//se debe obtener el saldo para el usuario registrado mantener login}}
-\DoxyCodeLine{70                 String saldo = \textcolor{stringliteral}{"Tu saldo es de "}+Float.toString(facade.saldo(name)) + \textcolor{stringliteral}{" �
-                lblNewLabel.setText(saldo);
-                lblNewLabel.setVisible(true);
-                textField.setVisible(false);
-                lblSaldoAAadir.setVisible(false);
-                btnAadir.setVisible(false);
-                
-            \}
-        \});
-        btnVerSaldo.setBounds(117, 45, 202, 23);
-        getContentPane().add(btnVerSaldo);
-        
-        textField = new JTextField();
-        textField.setBounds(117, 230, 198, 20);
-        getContentPane().add(textField);
-        textField.setColumns(10);
-        textField.setVisible(false);
-        
-        lblSaldoAAadir = new JLabel("Saldo a anadir:");
-        lblSaldoAAadir.setBounds(22, 230, 90, 20);
-        getContentPane().add(lblSaldoAAadir);
-        lblSaldoAAadir.setVisible(false);
-        
-        btnAadir = new JButton("Anadir");
-        btnAadir.addActionListener(new ActionListener() \{
-            public void actionPerformed(ActionEvent arg0) \{
-                BLFacade facade=MainGUI.getBusinessLogic();
-                //se debe a�adir saldo para el usuario registrado, mantener login
-                float sa = Integer.parseInt(textField.getText());
-                facade.anadirSaldo(name, sa);
-            \}
-        \});
-        btnAadir.setBounds(335, 229, 89, 23);
-        getContentPane().add(btnAadir);
-        
-        btnMisApuestas = new JButton("Mis Apuestas");
-        btnMisApuestas.addActionListener(new ActionListener() \{
-            public void actionPerformed(ActionEvent e) \{
-                lblNewLabel.setVisible(false);
-                MisApuestasGUI a = new MisApuestasGUI(name);
-                a.setVisible(true);
-                textField.setVisible(false);
-                lblSaldoAAadir.setVisible(false);
-                btnAadir.setVisible(false);
-            \}
-        \});
-        btnMisApuestas.setBounds(117, 113, 202, 23);
-        getContentPane().add(btnMisApuestas);
-        
-        JButton btnBalanceDeBeneficios = new JButton("Balance de beneficios");
-        btnBalanceDeBeneficios.addActionListener(new ActionListener() \{
-            public void actionPerformed(ActionEvent arg0) \{
-                lblNewLabel.setVisible(false);
-                BalanceGUI a = new BalanceGUI(name);
-                a.setVisible(true);
-                textField.setVisible(false);
-                lblSaldoAAadir.setVisible(false);
-                btnAadir.setVisible(false);
-            \}
-        \});
-        btnBalanceDeBeneficios.setBounds(117, 147, 202, 23);
-        getContentPane().add(btnBalanceDeBeneficios);
-        
-        btnNewButton = new JButton("Historial de Apuestas");
-        btnNewButton.addActionListener(new ActionListener() \{
-            public void actionPerformed(ActionEvent arg0) \{
-                lblNewLabel.setVisible(false);
-                HistorialDeApuestasGUI2 a = new HistorialDeApuestasGUI2(name);
-                a.setVisible(true);
-                textField.setVisible(false);
-                lblSaldoAAadir.setVisible(false);
-                btnAadir.setVisible(false);
-            \}
-        \});
-        btnNewButton.setBounds(117, 181, 202, 20);
-        getContentPane().add(btnNewButton);
-        btnAadir.setVisible(false);
-
-    \}
-"};}
+\DoxyCodeLine{70                 String saldo = \textcolor{stringliteral}{"Tu saldo es de "}+Float.toString(facade.saldo(name)) + \textcolor{stringliteral}{" "};}
 \DoxyCodeLine{71                 \mbox{\hyperlink{classgui_1_1UserMainPageGUI_a37ba4e20b066f143ee60d0d4e47656dd}{lblNewLabel}}.setText(saldo);}
 \DoxyCodeLine{72                 \mbox{\hyperlink{classgui_1_1UserMainPageGUI_a37ba4e20b066f143ee60d0d4e47656dd}{lblNewLabel}}.setVisible(\textcolor{keyword}{true});}
 \DoxyCodeLine{73                 \mbox{\hyperlink{classgui_1_1UserMainPageGUI_ae4a60bf0e50517142c8c03fbace32901}{textField}}.setVisible(\textcolor{keyword}{false});}
@@ -204,7 +125,7 @@ Definición en la línea 28 del archivo User\+Main\+Page\+G\+U\+I.\+java.
 \DoxyCodeLine{94         \mbox{\hyperlink{classgui_1_1UserMainPageGUI_a2672451d61382e7df4ddfb581b4c8ccf}{btnAadir}}.addActionListener(\textcolor{keyword}{new} ActionListener() \{}
 \DoxyCodeLine{95             \textcolor{keyword}{public} \textcolor{keywordtype}{void} actionPerformed(ActionEvent arg0) \{}
 \DoxyCodeLine{96                 BLFacade facade=MainGUI.getBusinessLogic();}
-\DoxyCodeLine{97                 \textcolor{comment}{//se debe a�adir saldo para el usuario registrado, mantener login}}
+\DoxyCodeLine{97                 \textcolor{comment}{//se debe añadir saldo para el usuario registrado, mantener login}}
 \DoxyCodeLine{98                 \textcolor{keywordtype}{float} sa = Integer.parseInt(\mbox{\hyperlink{classgui_1_1UserMainPageGUI_ae4a60bf0e50517142c8c03fbace32901}{textField}}.getText());}
 \DoxyCodeLine{99                 facade.anadirSaldo(name, sa);}
 \DoxyCodeLine{100             \}}

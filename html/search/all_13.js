@@ -1,7 +1,7 @@
 var searchData=
 [
   ['unmarshal',['unmarshal',['../classdomain_1_1IntegerAdapter.html#ad2bfc5af140573682dd03906b9264b51',1,'domain::IntegerAdapter']]],
-  ['user',['User',['../classdomain_1_1User.html',1,'domain.User'],['../classdomain_1_1User.html#a6a19ce3695034e587026e08628e4a94b',1,'domain.User.User()'],['../classconfiguration_1_1ConfigXML.html#a79e9a3b8602620dbb873ba491f47164a',1,'configuration.ConfigXML.user()']]],
+  ['user',['User',['../classdomain_1_1User.html',1,'domain.User'],['../classdomain_1_1User.html#abffd907e53fb2c2c2d97c8c7688fd4a4',1,'domain.User.User()'],['../classconfiguration_1_1ConfigXML.html#a79e9a3b8602620dbb873ba491f47164a',1,'configuration.ConfigXML.user()']]],
   ['user_2ejava',['User.java',['../User_8java.html',1,'']]],
   ['usermainpagegui',['UserMainPageGUI',['../classgui_1_1UserMainPageGUI.html',1,'gui.UserMainPageGUI'],['../classgui_1_1UserMainPageGUI.html#a25a280353dd2dba519823577052d559d',1,'gui.UserMainPageGUI.UserMainPageGUI()']]],
   ['usermainpagegui_2ejava',['UserMainPageGUI.java',['../UserMainPageGUI_8java.html',1,'']]],
